@@ -26,7 +26,7 @@ const stats = [
 
 const StatsCards = () => {
   return (
-    <div className="h-full flex flex-col justify-between items-center">
+    <div className="h-full flex flex-col justify-between items-center gap-10 md:gap-0">
       {stats.map((stat, index) => (
         <div
           key={index}
