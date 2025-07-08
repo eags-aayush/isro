@@ -1,0 +1,62 @@
+@import 'tailwindcss';
+
+@theme{
+    --color-background: var(--background);
+    --color-text: var(--text);
+    --color-primary: var(--primary);
+    --color-secondary: var(--secondary);
+    --color-accent: var(--accent);
+    --color-border: var(--border);
+}
+
+:root{
+    --background: #f0f0f0;
+    --text: #000000;
+    --primary: #4a90e2;
+    --secondary: #50e3c2;
+    --accent: #f5a623;
+    --border: #dcdcdc;
+}
+
+.dark{
+    --background: #1a1a1a;
+    --text: #f0f0f0;
+    --primary: #4a90e2;
+    --secondary: #50e3c2;
+    --accent: #f5a623;
+    --border: #333333;
+}
+
+/* Floating animation: slight scale + smooth vertical bounce */
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-40px) scale(1.05);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-60px) scale(1.1);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Animation utility classes */
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float2 {
+  animation: float2 8s ease-in-out infinite;
+}
