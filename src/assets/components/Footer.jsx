@@ -3,7 +3,7 @@ import { Github, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="text-text border-t border-border py-10 px-6">
+    <footer className="text-text bg-background border-t border-border py-10 px-6">
       <div className="max-w-6xl mx-auto text-center">
         {/* Team Info */}
         <p className="text-lg font-semibold mb-2">Team FloodGuardians</p>
