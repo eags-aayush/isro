@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <nav className='sticky top-0 z-50 backdrop-blur-lg'>
             <div className="p-4 flex justify-between items-center">
-                <h1>ISRO Hackathon</h1>
+                <h1>AquaGrid AI</h1>
                 <ul className='flex gap-10 items-center'>
                     <Link to="/">Home</Link>
                     <Link to="/dashboard">Dashboard</Link>
