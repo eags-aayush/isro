@@ -6,13 +6,13 @@ const Footer = () => {
     <footer className="text-text bg-background border-t border-border py-10 px-6">
       <div className="max-w-6xl mx-auto text-center">
         {/* Team Info */}
-        <p className="text-lg font-semibold mb-2">Team FloodGuardians</p>
-        <p className="text-sm mb-4">Submitted for SmartCity Hackathon 2025 @ ABC Institute of Technology</p>
+        <p className="text-lg font-semibold mb-2">Team Bug BUSTERS 2.o</p>
+        <p className="text-sm mb-4">Submitted for Bharatiya Antariksh Hackathon 2025</p>
 
         {/* Social Icons */}
         <div className="flex justify-center gap-6 my-4">
           <a
-            href="https://github.com/eags-aayus"
+            href="https://github.com/eags-aayush"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white"
@@ -31,7 +31,7 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <p className="text-xs text-text mt-6">
-          &copy; 2025 FloodGuardians. All rights reserved.
+          &copy; 2025 AquaGrid AI. All rights reserved.
         </p>
       </div>
     </footer>
